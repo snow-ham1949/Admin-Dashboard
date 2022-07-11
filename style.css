@@ -1,6 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     display: flex;
     height: 100vh;
+    margin: 0px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .sidebar, .dashboard, .menu, .tools {
@@ -29,6 +36,7 @@ a {
     align-items: center;
     outline: none;
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -103,7 +111,7 @@ a:visited {
     gap: 20px;
 }
 
-.header > .search-section > img, .header > .user-section > a > img, .trending-main > .trending-user > img {
+.header > .search-section > img, .header > .user-section > a > img {
     width: 20px;
     height: 20px;
 }
@@ -225,10 +233,11 @@ input:focus {
     flex-direction: column;
     justify-content: flex-start;
     gap: 5px;
+    padding: 10px 10px;
 }
 
 .announcement-main, .trending-main {
-    margin: 5px 10px;
+    margin: 15px 10px;
     background-color: #F7EDDB;
     width: inherit;
     height: 180px;
@@ -236,25 +245,26 @@ input:focus {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     overflow: auto;
+    gap: 10px;
 }
 
-.announcement-main > div > h6 {
+.announcement-main > div > h5 {
     margin: 0px 0px;
 }
 
 .announcement-main > div > p {
     margin: 0px 0px;
-    font-size: 6px;
+    font-size: 12px;
 }
 
-.announcement-main > hr {
+.announcement-main > div > hr {
     height: 2px;
     width: 80%; 
     background-color:#F0A986;
     border: none;
-    margin: auto;
+    margin: 2px auto;
 }
 
 .trending-main {
@@ -267,13 +277,18 @@ input:focus {
     gap: 10px;
 }
 
+.trending-main > .trending-user > img {
+    width: 30px;
+    height: 30px;
+}
+
 .user-info > p {
-    font-size: 6px;
+    font-size: 10px;
     color: #947A6D;
 }
 
 #user-id {
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 700;
     color: black;
 }
