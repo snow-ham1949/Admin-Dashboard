@@ -2,6 +2,8 @@
 
 project in The Odin Project
 
+[live demo](https://snow-ham1949.github.io/Admin-Dashboard/)
+
 learning note:
 
 1. `<hr>` defines a thematic break in an HTML page
