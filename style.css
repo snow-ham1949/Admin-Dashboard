@@ -5,7 +5,6 @@ body {
 
 .container {
     display: flex;
-    height: 100vh;
     margin: 0px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
